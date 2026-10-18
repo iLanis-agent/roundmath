@@ -1,0 +1,504 @@
+[
+ {
+  "fn": "ruleTruth",
+  "args": [
+   2.5,
+   0
+  ],
+  "expected": "2.5 to 0 places: half away from zero 3, half to even 2, toward zero 2, down 2, up 3."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   3.5,
+   0
+  ],
+  "expected": "3.5 to 0 places: half away from zero 4, half to even 4, toward zero 3, down 3, up 4."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   -2.5,
+   0
+  ],
+  "expected": "-2.5 to 0 places: half away from zero -3, half to even -2, toward zero -2, down -3, up -2."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   -3.5,
+   0
+  ],
+  "expected": "-3.5 to 0 places: half away from zero -4, half to even -4, toward zero -3, down -4, up -3."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   2.4,
+   0
+  ],
+  "expected": "2.4 to 0 places: half away from zero 2, half to even 2, toward zero 2, down 2, up 3."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   2.6,
+   0
+  ],
+  "expected": "2.6 to 0 places: half away from zero 3, half to even 3, toward zero 2, down 2, up 3."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   -2.4,
+   0
+  ],
+  "expected": "-2.4 to 0 places: half away from zero -2, half to even -2, toward zero -2, down -3, up -2."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   -2.6,
+   0
+  ],
+  "expected": "-2.6 to 0 places: half away from zero -3, half to even -3, toward zero -2, down -3, up -2."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   0,
+   0
+  ],
+  "expected": "0 to 0 places: half away from zero 0, half to even 0, toward zero 0, down 0, up 0."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   3,
+   0
+  ],
+  "expected": "3 to 0 places: half away from zero 3, half to even 3, toward zero 3, down 3, up 3."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   2.345,
+   2
+  ],
+  "expected": "2.345 to 2 places: half away from zero 2.35, half to even 2.34, toward zero 2.34, down 2.34, up 2.35."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   2.355,
+   2
+  ],
+  "expected": "2.355 to 2 places: half away from zero 2.36, half to even 2.36, toward zero 2.35, down 2.35, up 2.36."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   -2.345,
+   2
+  ],
+  "expected": "-2.345 to 2 places: half away from zero -2.35, half to even -2.34, toward zero -2.34, down -2.35, up -2.34."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   0.5,
+   0
+  ],
+  "expected": "0.5 to 0 places: half away from zero 1, half to even 0, toward zero 0, down 0, up 1."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   -0.5,
+   0
+  ],
+  "expected": "-0.5 to 0 places: half away from zero -1, half to even 0, toward zero 0, down -1, up 0."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   1.25,
+   1
+  ],
+  "expected": "1.25 to 1 place: half away from zero 1.3, half to even 1.2, toward zero 1.2, down 1.2, up 1.3."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   1.35,
+   1
+  ],
+  "expected": "1.35 to 1 place: half away from zero 1.4, half to even 1.4, toward zero 1.3, down 1.3, up 1.4."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   1.2345,
+   4
+  ],
+  "expected": "1.2345 to 4 places: half away from zero 1.2345, half to even 1.2345, toward zero 1.2345, down 1.2345, up 1.2345."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   1000000,
+   2
+  ],
+  "expected": "1000000 to 2 places: half away from zero 1000000.00, half to even 1000000.00, toward zero 1000000.00, down 1000000.00, up 1000000.00."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   -1000000,
+   0
+  ],
+  "expected": "-1000000 to 0 places: half away from zero -1000000, half to even -1000000, toward zero -1000000, down -1000000, up -1000000."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   5e-05,
+   4
+  ],
+  "expected": "0.0001 to 4 places: half away from zero 0.0001, half to even 0.0001, toward zero 0.0001, down 0.0001, up 0.0001."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   -0.3,
+   0
+  ],
+  "expected": "-0.3 to 0 places: half away from zero 0, half to even 0, toward zero 0, down -1, up 0."
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   1000001,
+   0
+  ],
+  "expected": "ERR:value must be between -1000000 and 1000000"
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   1,
+   5
+  ],
+  "expected": "ERR:places must be a whole number from 0 to 4"
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   1,
+   1.5
+  ],
+  "expected": "ERR:places must be a whole number from 0 to 4"
+ },
+ {
+  "fn": "ruleTruth",
+  "args": [
+   1,
+   -1
+  ],
+  "expected": "ERR:places must be a whole number from 0 to 4"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    1.4,
+    1.4,
+    1.4
+   ],
+   0
+  ],
+  "expected": "Rounding each of 3 numbers to 0 places and adding gives 3; adding first and rounding gives 4. They differ by 1."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    1.5,
+    1.5
+   ],
+   0
+  ],
+  "expected": "Rounding each of 2 numbers to 0 places and adding gives 4; adding first and rounding gives 3. They differ by 1."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    0.5,
+    0.5,
+    0.5
+   ],
+   0
+  ],
+  "expected": "Rounding each of 3 numbers to 0 places and adding gives 3; adding first and rounding gives 2. They differ by 1."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    2.25,
+    2.25,
+    2.25,
+    2.25
+   ],
+   1
+  ],
+  "expected": "Rounding each of 4 numbers to 1 place and adding gives 9.2; adding first and rounding gives 9.0. They differ by 0.2."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    1.1,
+    2.2
+   ],
+   0
+  ],
+  "expected": "Rounding each of 2 numbers to 0 places and adding gives 3; adding first and rounding gives 3. Both ways agree."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    -1.5,
+    -1.5
+   ],
+   0
+  ],
+  "expected": "Rounding each of 2 numbers to 0 places and adding gives -4; adding first and rounding gives -3. They differ by 1."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    1.004,
+    1.004,
+    1.004
+   ],
+   2
+  ],
+  "expected": "Rounding each of 3 numbers to 2 places and adding gives 3.00; adding first and rounding gives 3.01. They differ by 0.01."
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    1
+   ],
+   0
+  ],
+  "expected": "ERR:need 2 to 20 numbers"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   0
+  ],
+  "expected": "ERR:need 2 to 20 numbers"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    1,
+    1000001
+   ],
+   0
+  ],
+  "expected": "ERR:each number must be between -1000000 and 1000000"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    1,
+    2
+   ],
+   5
+  ],
+  "expected": "ERR:places must be a whole number from 0 to 4"
+ },
+ {
+  "fn": "sumTruth",
+  "args": [
+   [
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.6
+   ],
+   0
+  ],
+  "expected": "Rounding each of 5 numbers to 0 places and adding gives 5; adding first and rounding gives 3. They differ by 2."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   7.3,
+   0.5
+  ],
+  "expected": "Nearest 0.5 to 7.3: 7.5 (up 0.2)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   7.25,
+   0.5
+  ],
+  "expected": "Nearest 0.5 to 7.25: 7.5 (up 0.25)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   7.5,
+   0.5
+  ],
+  "expected": "Nearest 0.5 to 7.5: 7.5 (already on a step)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   -7.25,
+   0.5
+  ],
+  "expected": "Nearest 0.5 to -7.25: -7.5 (down 0.25)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   12,
+   5
+  ],
+  "expected": "Nearest 5 to 12: 10 (down 2)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   13,
+   5
+  ],
+  "expected": "Nearest 5 to 13: 15 (up 2)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   12.5,
+   5
+  ],
+  "expected": "Nearest 5 to 12.5: 15 (up 2.5)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   -12.5,
+   5
+  ],
+  "expected": "Nearest 5 to -12.5: -15 (down 2.5)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   0,
+   5
+  ],
+  "expected": "Nearest 5 to 0: 0 (already on a step)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   2.49,
+   0.05
+  ],
+  "expected": "Nearest 0.05 to 2.49: 2.5 (up 0.01)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   0.0001,
+   0.0001
+  ],
+  "expected": "Nearest 0.0001 to 0.0001: 0.0001 (already on a step)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   1000000,
+   1000000
+  ],
+  "expected": "Nearest 1000000 to 1000000: 1000000 (already on a step)."
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   7,
+   0
+  ],
+  "expected": "ERR:step must be between 0.0001 and 1000000"
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   7,
+   1e-05
+  ],
+  "expected": "ERR:step must be between 0.0001 and 1000000"
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   7,
+   1000001
+  ],
+  "expected": "ERR:step must be between 0.0001 and 1000000"
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   1000001,
+   5
+  ],
+  "expected": "ERR:value must be between -1000000 and 1000000"
+ },
+ {
+  "fn": "stepTruth",
+  "args": [
+   999999.99,
+   25
+  ],
+  "expected": "Nearest 25 to 999999.99: 1000000 (up 0.01)."
+ }
+]
